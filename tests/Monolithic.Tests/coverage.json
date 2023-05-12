@@ -1,0 +1,449 @@
+{
+  "Monolithic.Core.Domain.Product.dll": {},
+  "Monolithic.Core.Domain.Order.dll": {},
+  "Monolithic.Core.SharedKernel.dll": {
+    "/home/adriano/dotnet/Monolithic/src/Core/SharedKernel/Monolithic.Core.SharedKernel/DomainObjects/AbstractEntity.cs": {
+      "Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity": {
+        "System.Guid Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::get_Id()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
+        },
+        "System.DateTime Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::get_CreatedAt()": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::get_UpdateAt()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "FluentValidation.Results.ValidationResult Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::get_ValidationResult()": {
+          "Lines": {
+            "14": 36
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::Equals(System.Object)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 26,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::op_Equality(Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity,Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 2,
+              "EndOffset": 10,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 31,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::op_Inequality(Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity,Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity)": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::GetHashCode()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::ToString()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::IsValid()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::Validate()": {
+          "Lines": {
+            "39": 10
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.SharedKernel.DomainObjects.AbstractEntity::.ctor()": {
+          "Lines": {
+            "6": 6,
+            "7": 6,
+            "8": 6,
+            "9": 6,
+            "10": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Monolithic.Core.Domain.Customer.dll": {
+    "/home/adriano/dotnet/Monolithic/src/Core/Domain/Customer/Monolithic.Core.Domain.Customer/ValueObjects/Address.cs": {
+      "Monolithic.Core.Domain.Customer.ValueObjects.Address": {
+        "System.String Monolithic.Core.Domain.Customer.ValueObjects.Address::get_Street()": {
+          "Lines": {
+            "17": 19
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.Domain.Customer.ValueObjects.Address::get_Number()": {
+          "Lines": {
+            "18": 19
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.Domain.Customer.ValueObjects.Address::get_ZipCode()": {
+          "Lines": {
+            "19": 19
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.Domain.Customer.ValueObjects.Address::get_Country()": {
+          "Lines": {
+            "20": 19
+          },
+          "Branches": []
+        },
+        "FluentValidation.Results.ValidationResult Monolithic.Core.Domain.Customer.ValueObjects.Address::get_ValidationResult()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.Domain.Customer.ValueObjects.Address::IsValid()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.ValueObjects.Address::Validate()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.ValueObjects.Address::.ctor(System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "7": 6,
+            "8": 6,
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/adriano/dotnet/Monolithic/src/Core/Domain/Customer/Monolithic.Core.Domain.Customer/Validator/AddressValidator.cs": {
+      "Monolithic.Core.Domain.Customer.Validator.AddressValidator": {
+        "System.Void Monolithic.Core.Domain.Customer.Validator.AddressValidator::.ctor()": {
+          "Lines": {
+            "5": 13,
+            "6": 13,
+            "7": 13,
+            "8": 13,
+            "9": 13,
+            "10": 13,
+            "11": 13,
+            "12": 13,
+            "13": 13,
+            "14": 13,
+            "15": 13,
+            "16": 13,
+            "17": 13,
+            "18": 13,
+            "19": 13,
+            "20": 13,
+            "21": 13,
+            "22": 13,
+            "23": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/adriano/dotnet/Monolithic/src/Core/Domain/Customer/Monolithic.Core.Domain.Customer/Validator/CustomerValidator.cs": {
+      "Monolithic.Core.Domain.Customer.Validator.CustomerValidator": {
+        "System.Boolean Monolithic.Core.Domain.Customer.Validator.CustomerValidator::BeValidCellPhone(System.String)": {
+          "Lines": {
+            "34": 13,
+            "35": 13,
+            "36": 13
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Validator.CustomerValidator::.ctor()": {
+          "Lines": {
+            "6": 13,
+            "7": 13,
+            "8": 13,
+            "9": 13,
+            "10": 13,
+            "11": 13,
+            "12": 13,
+            "13": 13,
+            "14": 13,
+            "15": 13,
+            "16": 13,
+            "17": 13,
+            "18": 13,
+            "19": 13,
+            "20": 13,
+            "21": 13,
+            "22": 13,
+            "23": 13,
+            "24": 13,
+            "25": 13,
+            "26": 13,
+            "27": 13,
+            "28": 13,
+            "29": 13,
+            "30": 13,
+            "31": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/adriano/dotnet/Monolithic/src/Core/Domain/Customer/Monolithic.Core.Domain.Customer/Model/Customer.cs": {
+      "Monolithic.Core.Domain.Customer.Model.Customer": {
+        "System.String Monolithic.Core.Domain.Customer.Model.Customer::get_Name()": {
+          "Lines": {
+            "22": 34
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.Domain.Customer.Model.Customer::get_Email()": {
+          "Lines": {
+            "23": 34
+          },
+          "Branches": []
+        },
+        "System.String Monolithic.Core.Domain.Customer.Model.Customer::get_CellPhone()": {
+          "Lines": {
+            "24": 32
+          },
+          "Branches": []
+        },
+        "Monolithic.Core.Domain.Customer.ValueObjects.Address Monolithic.Core.Domain.Customer.Model.Customer::get_Address()": {
+          "Lines": {
+            "25": 19
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.Domain.Customer.Model.Customer::get_Active()": {
+          "Lines": {
+            "26": 6
+          },
+          "Branches": []
+        },
+        "System.Decimal Monolithic.Core.Domain.Customer.Model.Customer::get_RewardPoints()": {
+          "Lines": {
+            "27": 7
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::AddRewardPoints(System.Decimal)": {
+          "Lines": {
+            "28": 2
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::ChangeName(System.String)": {
+          "Lines": {
+            "29": 2
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::ChangeEmail(System.String)": {
+          "Lines": {
+            "30": 2
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::ChangeCellPhone(System.String)": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::ChangeAddress(Monolithic.Core.Domain.Customer.ValueObjects.Address)": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::Activate(System.Boolean)": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::Disable(System.Boolean)": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.Domain.Customer.Model.Customer::MustBeValidCellPhone(System.String)": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Monolithic.Core.Domain.Customer.Model.Customer::IsValid()": {
+          "Lines": {
+            "38": 13,
+            "39": 13,
+            "40": 13,
+            "41": 13,
+            "42": 13
+          },
+          "Branches": []
+        },
+        "System.Void Monolithic.Core.Domain.Customer.Model.Customer::.ctor(System.String,System.String,System.String,Monolithic.Core.Domain.Customer.ValueObjects.Address,System.Boolean)": {
+          "Lines": {
+            "8": 6,
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
