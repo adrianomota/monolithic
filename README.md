@@ -8,4 +8,4 @@
 
 #### To validations i'm using FluentValidations because give me more flexibility.
 
-#### So far that's it. I hope include more feature as soon as possible.
+#### I'm using Mongodb as data storage and EF Core as ORM.

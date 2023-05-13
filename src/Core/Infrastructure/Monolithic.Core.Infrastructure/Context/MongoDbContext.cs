@@ -2,7 +2,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Monolithic.Core.Infrastructure.Contracts;
 
-namespace Monolithic.Core.InfraScture.Context;
+namespace Monolithic.Core.Infrastructure.Context;
 public class MonogoDbContext
 {
     private readonly MongoClient _client;
