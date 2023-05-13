@@ -3,12 +3,12 @@ using MongoDB.Driver;
 using Monolithic.Core.Infrastructure.Contracts;
 
 namespace Monolithic.Core.Infrastructure.Context;
-public class MonogoDbContext
+public class MongoDbContext
 {
     private readonly MongoClient _client;
     private readonly IMongoDatabase _database;
 
-    public MonogoDbContext(IOptions<MongoOptions> options)
+    public MongoDbContext(IOptions<MongoOptions> options)
     {
         var settings = options.Value;
         _client = new MongoClient(settings.ConnectionString);
