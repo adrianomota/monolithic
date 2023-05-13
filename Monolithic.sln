@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolithic.Core.Application
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4830629A-2ED2-47AA-B265-33FD64D9BFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolithic.Core.InfraScture", "src\Core\Infrastructure\Monolithic.Core.InfraScture\Monolithic.Core.InfraScture.csproj", "{B3E092BE-A1BA-46B1-9776-096650DAE4F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolithic.Core.Infrastructure", "src\Core\Infrastructure\Monolithic.Core.Infrastructure\Monolithic.Core.Infrastructure.csproj", "{B3E092BE-A1BA-46B1-9776-096650DAE4F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

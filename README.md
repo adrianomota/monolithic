@@ -1,6 +1,6 @@
 # Tactical modeling
 
-#### In this project i try to use Domain driven design(DDD) concepts,
+#### In this project i try to use Domain Driven Design (DDD) concepts,
 
 #### using C# language, .Net core 7 and tests.
 
