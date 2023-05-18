@@ -1,15 +1,22 @@
 using FluentValidation.Results;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Monolithic.Core.SharedKernel.DomainObjects;
 public abstract class AbstractEntity
 {
     protected AbstractEntity()
     {
-        Id = System.Guid.NewGuid();
+        Id = ObjectId.GenerateNewId();
         CreatedAt = System.DateTime.UtcNow;
     }
-    public Guid Id { get; private set; }
+    [BsonId]
+    public ObjectId Id { get; private set; }
+
+    [BsonElement("createdAt")]
     public DateTime CreatedAt { get; private set; }
+    
+    [BsonElement("updatedAt")]
     public DateTime? UpdateAt { get; set; }
     public ValidationResult? ValidationResult { get; set; }
     public override bool Equals(object? obj)

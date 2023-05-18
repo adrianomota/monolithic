@@ -1,3 +1,4 @@
+using MongoDB.Bson.Serialization.Attributes;
 using Monolithic.Core.Domain.Product.Validator;
 using Monolithic.Core.SharedKernel.DomainObjects;
 
@@ -12,9 +13,17 @@ public class Product : AbstractEntity, IAggregateRoot
         Active = active;
         Validate();
     }
+
+    [BsonElement("name")]
     public string Name { get; private set; }
+
+    [BsonElement("description")]    
     public string Description { get; private set; }
+    
+    [BsonElement("price")]
     public decimal Price { get; private set; }
+    
+    [BsonElement("active")]
     public bool Active { get; private set; }
 
     public void ChangeName(string value) => Name = value;

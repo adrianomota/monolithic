@@ -14,5 +14,5 @@ public class OrderValidator : AbstractValidator<Model.Order>
         RuleFor(order => order.Total())
             .GreaterThan(0);
     }
-    private bool BeValidGuid(Guid value) => value != Guid.Empty;
+    private bool BeValidGuid(string value) => value != string.Empty;
 }

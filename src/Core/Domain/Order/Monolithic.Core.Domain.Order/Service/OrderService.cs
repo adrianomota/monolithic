@@ -11,7 +11,7 @@ public static class OrderService
         {
             throw new DomainException("Order item must be at least one item");
         }   
-        var order = new OrderModel.Order(customerId: customer.Id, active: true, items: items);
+        var order = new OrderModel.Order(customerId: customer.Id.ToString(), active: true, items: items);
         customer.AddRewardPoints(order.Total() / 2);
         return order;
      }

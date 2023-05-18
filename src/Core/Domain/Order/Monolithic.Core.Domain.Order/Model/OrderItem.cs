@@ -1,3 +1,4 @@
+using MongoDB.Bson.Serialization.Attributes;
 using Monolithic.Core.Domain.Order.Validator;
 using Monolithic.Core.SharedKernel.DomainObjects;
 
@@ -12,9 +13,15 @@ public class OrderItem :  AbstractEntity
         Validate();
     }
 
+    [BsonElement("name")]
     public string Name { get; private set; }
+
+    [BsonElement("quantity")]
     public int Quantity { get; private set; }
+    
+    [BsonElement("price")]
     public decimal Price { get; private set; }
+    
     public void ChangeName(string value) => Name = value;
     public void ChangeQuantity(int value) => Quantity = value;
     public void ChangePrice(decimal value) => Price = value;

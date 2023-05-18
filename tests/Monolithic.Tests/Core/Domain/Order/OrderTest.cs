@@ -25,7 +25,7 @@ public class OrderTest
     {
         var order = _orderFixture.GetValidOrder();
         order?.AddItem(new OrderItemDomain.OrderItem(name: "Product 1", quantity: 2, price: 10.0m, true));
-        order?.ChangeCustomer(Guid.Empty);
+        order?.ChangeCustomer(string.Empty);
         order?.Validate();
         Assert.False(order?.IsValid());
     }

@@ -1,4 +1,5 @@
 using Bogus;
+using MongoDB.Bson;
 using Monolithic.Core.Domain.Order.Model;
 
 namespace Monolithic.Tests.Support.Fixtures;
@@ -24,7 +25,7 @@ public class OrderFixture : IDisposable
     {
         var order = new Faker<Order>("pt_BR")
            .CustomInstantiator(f => new Order(
-                customerId: Guid.NewGuid(),
+                customerId: ObjectId.GenerateNewId().ToString(),
                 active: active,
                 items: new List<OrderItem>() 
            ));
@@ -35,7 +36,7 @@ public class OrderFixture : IDisposable
     {
         var order = new Faker<Order>("pt_BR")
            .CustomInstantiator(f => new Order(
-                customerId: Guid.Empty,
+                customerId: string.Empty,
                 active: active,
                 items: new List<OrderItem>()
            ));
